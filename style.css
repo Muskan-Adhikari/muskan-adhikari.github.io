@@ -1,11 +1,6 @@
 /* CSS here */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap');
 
-:root {
-    --bg-color: #222327;
-    --text-color: #fff;
-    --main-color: #29fd53;
-}
 
 * {
     margin: 0;
@@ -15,8 +10,8 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    color: var(--text-color);
-    background-color: var(--bg-color);
+    color: #fff;
+    background-color: #222327;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -31,7 +26,7 @@ body {
 }
 
 .age-info h2 {
-    color: var(--main-color);
+    color:#29fd53;
 }
 
 .description p {
